@@ -1,0 +1,521 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+    
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(OP.jpg);
+	height: 100vh;
+	background-size: cover ;
+	background-position: center;
+}
+ul{
+	float: right;,
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
+	
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+	color: #000;
+}
+
+
+.logo img{
+	float: left;
+	width: 125px;
+	height: auto;
+}
+.main{
+	max-width: 2000px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 26.5%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old Face
+
+}
+
+.title h1{
+	color: #fff;
+	font-size: 120px;
+	
+
+}
+
+ p{
+	font-size: 30px;
+	font-family: Bodoni MT Black;
+    color: #fff;
+}
+
+.container{
+	height: 100vh;
+	width: 100%;
+	background-image: url(X.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 5s;
+
+
+	animation-name: animate;
+    animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+
+	
+	
+
+	0%{
+		background-image:  url(A.jpg);
+	}
+
+	
+	20%{
+		background-image:  url(K.jpg);
+
+	}
+
+    40%{
+		background-image:  url(H.jpg);
+
+	}
+
+
+	60%{
+		background-image:  url(Y.jpg);
+
+	}
+
+
+    80%{
+		background-image:  url(L.jpg);
+
+	}
+
+	100%{
+		background-image:  url(I.jpg);
+
+	}
+
+}
+
+.heading h1{
+	color: yellow;
+	font-size: 70px;
+	
+
+}
+
+.background{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(p.jpg);
+	height: 200vh;
+	background-size: cover ;
+	background-position: center;
+}
+
+.heading{
+	position: absolute;
+	top: 220%;
+	left: 13%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old Face
+
+}
+
+.text h1{
+	
+	color: #fff;
+}
+
+.text{
+	top: 240%;
+	position: absolute;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.wrapper video{
+	position: absolute;
+	top: 300%;
+	width: 70%;
+}
+
+.photo{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(KK.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+ h2{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translate(-50%-50%);
+	color: #fff;
+	font-size: 115px;
+}
+
+.slide{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(X.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 5s;
+
+
+	animation-name: animate;
+    animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+
+	
+	
+
+	0%{
+		background-image:url(A.jpg);
+	}
+
+	20%{
+		background-image: url(K.jpg);
+
+	}
+
+    40%{
+		background-image: url(H.jpg);
+
+	}
+
+
+	60%{
+		background-image: url(Y.jpg);
+
+	}
+
+
+    80%{
+		background-image:url(L.jpg);
+
+	}
+
+	100%{
+		background-image:url(I.jpg);
+
+	}
+
+}
+
+.head{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pp.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300vh;
+}
+
+.head h1{
+	color: yellow;
+	font-size: 100px;
+	position: absolute;
+	top: 210%;
+	left: 20%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old Face;
+}
+
+.back{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(lk.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 250vh;
+}
+
+.section{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.section video{
+	position: absolute;
+	top: 365%;
+	width: 70%;
+
+}
+
+
+.text2 p{
+	
+    color: #fff;
+	size: 20px;
+	
+
+}
+
+.photo9 img{
+	width: 1348px;
+	float: center;
+
+}
+
+.bg {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(123.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.heading2{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old ;
+}
+
+
+h3{color: #fff;
+	font-size: 120px;
+	
+}
+
+.bg4{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(X.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 5s;
+
+
+	animation-name: animate;
+    animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+
+	
+	
+
+	0%{
+		background-image:url(A.jpg);
+	}
+
+	20%{
+		background-image: url(K.jpg);
+
+	}
+
+    40%{
+		background-image: url(H.jpg);
+
+	}
+
+
+	60%{
+		background-image: url(Y.jpg);
+
+	}
+
+
+    80%{
+		background-image:url(L.jpg);
+
+	}
+
+	100%{
+		background-image:url(I.jpg);
+
+	}
+
+}
+
+
+
+.heading6 h4{
+	color: yellow;
+	font-size: 100px;
+	position: absolute;
+	top: 210%;
+	left: 20%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old Face;
+}
+.bg7{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(ooo.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 170vh;
+}
+.bg7 p{
+	size: 20px;
+	color: #fff;
+}
+
+.video5{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.video5 video{
+	position: absolute;
+	top: 270%;
+	width: 70%;
+}
+
+.heading9{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(mla.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.head8{
+	position: absolute;
+	top: 50%;
+	left: 28%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old ;
+}
+
+
+.head8 h6{
+	color: #fff;
+	font-size: 120px;
+	position: absolute;
+	top: 210%;
+	left: 20%;
+	transform: translate(-50%-50%);
+	font: Baskerville Old Face;
+}
+
+.bg10{
+	height: 100vh;
+	width: 100%;
+	background-image: url(X.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 5s;
+
+
+	animation-name: animate;
+    animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+
+	
+	
+
+	0%{
+		background-image:  url(A.jpg);
+	}
+
+	
+	20%{
+		background-image:  url(K.jpg);
+
+	}
+
+    40%{
+		background-image:  url(H.jpg);
+
+	}
+
+
+	60%{
+		background-image:  url(Y.jpg);
+
+	}
+
+
+    80%{
+		background-image:  url(L.jpg);
+
+	}
+
+	100%{
+		background-image:  url(I.jpg);
+
+	}
+
+}
+
+
+.bg11{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pp.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 170vh;
+
+}
+
+.video9{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.video9 video{
+	position: absolute;
+	top: 270%;
+	width: 70%;
+}
